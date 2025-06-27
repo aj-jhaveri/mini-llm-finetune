@@ -35,7 +35,6 @@ training_args = TrainingArguments(
     logging_dir="./logs",
     save_steps=10,
     save_total_limit=1,
-    evaluation_strategy="no",
 )
 
 # 5. Trainer object
